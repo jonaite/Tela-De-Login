@@ -1,74 +1,33 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="/Tela-De-Login/style.css">
-	<link rel="stylesheet" href="/Tela-De-Login/index.js">
-	<title>Front</title>
+	<link rel="stylesheet" href="./styles.css">
+	<title>Document</title>
 </head>
-
 <body>
-
-	<div class="header">
-		<div class="inner-header flex">
-			<img src="logo.png" alt="some text" width="150" height="150">
-			<h1>I.S.G Participações </h1>
-		</div>
-<!-- Tela de login-->
-<section>
-	<div class="form-box">
-		<div class="form-value">
-			<form action="">
-				<h2>Login</h2>
-				<div class="inputbox">
-					<ion-icon name="mail-outline"></ion-icon>
-					<input type="email" required>
-					<label for="">Email</label>
-				</div>
-				<div class="inputbox">
-					<ion-icon name="lock-closed-outline"></ion-icon>
-					<input type="password" required>
-					<label for="">Senha</label>
-				</div>
-				<div class="forget">
-					<label for=""><input type="checkbox">lembre-se de mim  <a href="#">Esqueci a senha</a></label>
-				  
-				</div>
-				<button>Log in</button>
-				<div class="register">
-					<p>Não tem uma conta? <a href="#">Registro</a></p>
-				</div>
-			</form>
-		</div>
-	</div>
-</section>
-
-
-		<!--Waves Container-->
-		<div>
-			<svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-				viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
-				<defs>
-					<path id="gentle-wave"
-						d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
-				</defs>
-				<g class="parallax">
-					<use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(145, 0, 0" />
-					<use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(145, 0, 0)" />
-					<use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(145, 0, 0)" />
-					<use xlink:href="#gentle-wave" x="48" y="7" fill="rgba(145, 0, 0" />
-				</g>
-			</svg>
-		</div>
-		<!--Waves end-->
-	</div>
-	<div class="content flex">
-		<p>By: Jonaite | Free Use </p>
-	</div>
-	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+	<div class="login-box">
+		<p>Login</p>
+		<form>
+		  <div class="user-box">
+			<input required="" name="" type="text">
+			<label>Email</label>
+		  </div>
+		  <div class="user-box">
+			<input required="" name="" type="password">
+			<label>Password</label>
+		  </div>
+		  <a href="#">
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			Submit
+		  </a>
+		</form>
+		<p>Don't have an account? <a href="" class="a2">Sign up!</a></p>
+	  </div>
 </body>
-
 </html>
